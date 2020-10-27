@@ -3,6 +3,6 @@ class QuizesController < ApplicationController
   end
   
   def index
-    @quizes_category = Quiz_category.all
+    @quiz_categories = QuizCategory.all
   end
 end
